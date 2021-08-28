@@ -3,14 +3,14 @@
     <item
         android:id="@+id/breakingNewsFragment"
         android:icon="@drawable/ic_breaking_news"
-        android:title="Tin nóng" />
+        android:title="@string/hot_news" />
     <item
         android:id="@+id/savedNewsFragment"
         android:icon="@drawable/ic_favorite"
-        android:title="Tin đã lưu" />
+        android:title="@string/saved_news" />
     <item
         android:id="@+id/searchNewsFragment"
         android:icon="@drawable/ic_all_news"
-        android:title="Tìm kiếm tin" />
+        android:title="@string/search_news" />
 
 </menu>

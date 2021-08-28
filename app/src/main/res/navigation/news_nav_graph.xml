@@ -21,7 +21,7 @@
         android:name="com.hung.baomoi.ui.fragments.SavedNewsFragment"
         android:label="SavedNewsFragment">
         <action
-            android:id="@+id/action_savedNewsFragment_to_articleFragment2"
+            android:id="@+id/action_savedNewsFragment_to_articleFragment"
             app:destination="@id/articleFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -43,5 +43,9 @@
     <fragment
         android:id="@+id/articleFragment"
         android:name="com.hung.baomoi.ui.fragments.ArticleFragment"
-        android:label="ArticleFragment" />
+        android:label="ArticleFragment" >
+        <argument
+            android:name="article"
+            app:argType="com.hung.baomoi.models.Article" />
+    </fragment>
 </navigation>
