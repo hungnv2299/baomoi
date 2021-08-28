@@ -1,4 +1,4 @@
-package com.hung.baomoi.models
+package com.hung.baomoi.news.data.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

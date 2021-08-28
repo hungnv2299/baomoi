@@ -1,11 +1,11 @@
-package com.hung.baomoi.db
+package com.hung.baomoi.news.data.local
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.hung.baomoi.models.Article
+import com.hung.baomoi.news.data.models.Article
 
 @Database(
     entities = [Article::class],

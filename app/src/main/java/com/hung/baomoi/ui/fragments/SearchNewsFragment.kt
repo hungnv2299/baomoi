@@ -14,8 +14,8 @@ import com.hung.baomoi.R
 import com.hung.baomoi.adapters.NewsAdapter
 import com.hung.baomoi.ui.NewsActivity
 import com.hung.baomoi.ui.NewsViewModel
-import com.hung.baomoi.util.Constants
-import com.hung.baomoi.util.Constants.Companion.SEARCH_NEWS_TIME_DELAY
+import com.hung.baomoi.common.Constants
+import com.hung.baomoi.common.Constants.Companion.SEARCH_NEWS_TIME_DELAY
 import com.hung.baomoi.util.Resource
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
 import kotlinx.android.synthetic.main.fragment_search_news.*

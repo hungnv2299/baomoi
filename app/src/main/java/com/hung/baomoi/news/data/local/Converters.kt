@@ -1,7 +1,7 @@
-package com.hung.baomoi.db
+package com.hung.baomoi.news.data.local
 
 import androidx.room.TypeConverter
-import com.hung.baomoi.models.Source
+import com.hung.baomoi.news.data.models.Source
 
 class Converters {
 

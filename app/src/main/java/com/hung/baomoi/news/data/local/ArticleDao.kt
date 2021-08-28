@@ -1,8 +1,8 @@
-package com.hung.baomoi.db
+package com.hung.baomoi.news.data.local
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.hung.baomoi.models.Article
+import com.hung.baomoi.news.data.models.Article
 
 @Dao
 interface ArticleDao {

@@ -1,4 +1,4 @@
-package com.hung.baomoi.util
+package com.hung.baomoi.common
 
 class Constants {
     companion object{

@@ -3,7 +3,7 @@ package com.hung.baomoi.ui
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.hung.baomoi.repository.NewsRepository
+import com.hung.baomoi.news.repository.NewsRepository
 
 class NewsViewModelProviderFactory(
     val app: Application,

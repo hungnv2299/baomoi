@@ -1,6 +1,6 @@
 package com.hung.baomoi.api
 
-import com.hung.baomoi.util.Constants.Companion.BASE_URL
+import com.hung.baomoi.common.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

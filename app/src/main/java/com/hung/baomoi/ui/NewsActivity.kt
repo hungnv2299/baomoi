@@ -6,8 +6,8 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.hung.baomoi.R
-import com.hung.baomoi.db.ArticleDatabase
-import com.hung.baomoi.repository.NewsRepository
+import com.hung.baomoi.news.data.local.ArticleDatabase
+import com.hung.baomoi.news.repository.NewsRepository
 import kotlinx.android.synthetic.main.activity_news.*
 
 class NewsActivity : AppCompatActivity() {

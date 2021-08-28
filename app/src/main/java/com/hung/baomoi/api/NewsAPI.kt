@@ -1,7 +1,7 @@
 package com.hung.baomoi.api
 
-import com.hung.baomoi.models.NewsResponse
-import com.hung.baomoi.util.Constants.Companion.API_KEY
+import com.hung.baomoi.news.data.models.NewsResponse
+import com.hung.baomoi.common.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query

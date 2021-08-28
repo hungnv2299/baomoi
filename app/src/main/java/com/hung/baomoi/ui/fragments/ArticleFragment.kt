@@ -9,7 +9,7 @@ import com.google.android.material.snackbar.Snackbar
 import com.hung.baomoi.R
 import com.hung.baomoi.ui.NewsActivity
 import com.hung.baomoi.ui.NewsViewModel
-import com.hung.baomoi.util.Constants.Companion.SAVED
+import com.hung.baomoi.common.Constants.Companion.SAVED
 import kotlinx.android.synthetic.main.fragment_article.*
 
 class ArticleFragment : Fragment(R.layout.fragment_article) {
