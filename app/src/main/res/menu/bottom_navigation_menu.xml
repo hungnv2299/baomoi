@@ -9,7 +9,7 @@
         android:icon="@drawable/ic_favorite"
         android:title="@string/saved_news" />
     <item
-        android:id="@+id/videoNewsFragment"
+        android:id="@+id/videoFragment"
         android:icon="@drawable/ic_video_news"
         android:title="@string/video_news" />
     <item

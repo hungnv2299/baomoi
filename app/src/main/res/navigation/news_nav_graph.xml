@@ -49,4 +49,12 @@
             android:name="article"
             app:argType="com.hung.baomoi.news.data.models.Article" />
     </fragment>
+
+    <fragment
+        android:id="@+id/videoFragment"
+        android:name="com.hung.baomoi.video.VideoFragment"
+        android:label="VideoFragment">
+
+    </fragment>
+
 </navigation>

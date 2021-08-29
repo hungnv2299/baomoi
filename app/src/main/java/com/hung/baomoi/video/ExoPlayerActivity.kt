@@ -61,7 +61,6 @@ class ExoPlayerActivity : AppCompatActivity() {
 
     public override fun onStart() {
         super.onStart()
-
         initializePlayer()
 
     }
@@ -75,18 +74,13 @@ class ExoPlayerActivity : AppCompatActivity() {
     }
 
     public override fun onPause() {
-        super.onPause()
-
         releasePlayer()
-
+        super.onPause()
     }
 
-
     public override fun onStop() {
-        super.onStop()
-
         releasePlayer()
-
+        super.onStop()
     }
 
 
