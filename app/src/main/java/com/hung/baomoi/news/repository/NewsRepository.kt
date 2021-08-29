@@ -1,6 +1,6 @@
 package com.hung.baomoi.news.repository
 
-import com.hung.baomoi.api.RetrofitInstance
+import com.hung.baomoi.news.data.remote.RetrofitInstance
 import com.hung.baomoi.news.data.local.ArticleDatabase
 import com.hung.baomoi.news.data.models.Article
 

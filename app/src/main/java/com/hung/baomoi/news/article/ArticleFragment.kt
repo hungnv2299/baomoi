@@ -1,4 +1,4 @@
-package com.hung.baomoi.ui.fragments
+package com.hung.baomoi.news.article
 
 import android.os.Bundle
 import android.view.View
@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.snackbar.Snackbar
 import com.hung.baomoi.R
-import com.hung.baomoi.ui.NewsActivity
-import com.hung.baomoi.ui.NewsViewModel
-import com.hung.baomoi.common.Constants.Companion.SAVED
+import com.hung.baomoi.NewsActivity
+import com.hung.baomoi.common.NewsViewModel
+import com.hung.baomoi.common.ultis.Constants.Companion.SAVED
 import kotlinx.android.synthetic.main.fragment_article.*
 
 class ArticleFragment : Fragment(R.layout.fragment_article) {

@@ -1,4 +1,4 @@
-package com.hung.baomoi.ui
+package com.hung.baomoi.common
 
 import android.app.Application
 import android.content.Context
@@ -10,13 +10,13 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.hung.baomoi.NewsApplication
-import com.hung.baomoi.common.Constants.Companion.CONVERTION_ERROR
-import com.hung.baomoi.common.Constants.Companion.NETWORK_FAILTURE
-import com.hung.baomoi.common.Constants.Companion.NO_INTERNET_CONNECTION
+import com.hung.baomoi.common.ultis.Constants.Companion.CONVERTION_ERROR
+import com.hung.baomoi.common.ultis.Constants.Companion.NETWORK_FAILTURE
+import com.hung.baomoi.common.ultis.Constants.Companion.NO_INTERNET_CONNECTION
 import com.hung.baomoi.news.data.models.Article
 import com.hung.baomoi.news.data.models.NewsResponse
 import com.hung.baomoi.news.repository.NewsRepository
-import com.hung.baomoi.util.Resource
+import com.hung.baomoi.news.util.Resource
 import kotlinx.coroutines.launch
 import retrofit2.Response
 import java.io.IOException

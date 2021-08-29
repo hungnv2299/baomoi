@@ -9,6 +9,10 @@
         android:icon="@drawable/ic_favorite"
         android:title="@string/saved_news" />
     <item
+        android:id="@+id/videoNewsFragment"
+        android:icon="@drawable/ic_video_news"
+        android:title="@string/video_news" />
+    <item
         android:id="@+id/searchNewsFragment"
         android:icon="@drawable/ic_all_news"
         android:title="@string/search_news" />

@@ -1,4 +1,4 @@
-package com.hung.baomoi.common
+package com.hung.baomoi.common.ultis
 
 class Constants {
     companion object{
@@ -12,6 +12,7 @@ class Constants {
         const val NETWORK_FAILTURE = "Lỗi Mạng"
         const val CONVERTION_ERROR = "Lỗi Chuyển Đổi"
         const val AN_ERROR_OCCURED = "An Error Occured: "
+        const val BASE_URL_VIDEO = "http://demo9339017.mockable.io"
 
     }
 }

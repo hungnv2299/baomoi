@@ -1,6 +1,6 @@
-package com.hung.baomoi.api
+package com.hung.baomoi.news.data.remote
 
-import com.hung.baomoi.common.Constants.Companion.BASE_URL
+import com.hung.baomoi.common.ultis.Constants.Companion.BASE_URL
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit

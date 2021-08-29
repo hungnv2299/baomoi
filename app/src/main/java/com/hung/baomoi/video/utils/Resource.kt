@@ -1,4 +1,4 @@
-package com.hung.baomoi.util
+package com.hung.baomoi.video.utils
 
 sealed class Resource<T>(
     val data: T? = null,

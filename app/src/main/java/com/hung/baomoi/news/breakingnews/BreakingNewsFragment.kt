@@ -1,4 +1,4 @@
-package com.hung.baomoi.ui.fragments
+package com.hung.baomoi.news.breakingnews
 
 import android.os.Bundle
 import android.view.View
@@ -10,13 +10,13 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.hung.baomoi.R
-import com.hung.baomoi.adapters.NewsAdapter
-import com.hung.baomoi.ui.NewsActivity
-import com.hung.baomoi.ui.NewsViewModel
-import com.hung.baomoi.common.Constants.Companion.AN_ERROR_OCCURED
-import com.hung.baomoi.common.Constants.Companion.BREAKING_NEWS_FRAGMENT
-import com.hung.baomoi.common.Constants.Companion.QUERY_PAGE_SIZE
-import com.hung.baomoi.util.Resource
+import com.hung.baomoi.common.NewsAdapter
+import com.hung.baomoi.NewsActivity
+import com.hung.baomoi.common.NewsViewModel
+import com.hung.baomoi.common.ultis.Constants.Companion.AN_ERROR_OCCURED
+import com.hung.baomoi.common.ultis.Constants.Companion.BREAKING_NEWS_FRAGMENT
+import com.hung.baomoi.common.ultis.Constants.Companion.QUERY_PAGE_SIZE
+import com.hung.baomoi.news.util.Resource
 import kotlinx.android.synthetic.main.fragment_breaking_news.*
 
 class BreakingNewsFragment : Fragment(R.layout.fragment_breaking_news) {

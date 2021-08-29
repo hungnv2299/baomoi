@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivVideoImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvTitleVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="TITLE"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+                android:layout_below="@id/ivVideoImage" />
+
+        <TextView
+            android:id="@+id/tvSourceVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="SOURCE"
+            android:textColor="@android:color/black"
+android:layout_below="@id/tvTitleVideo"/>
+
+        <TextView
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tvPublishedAtVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="PUBLISHED AT"
+            android:textColor="@android:color/black"
+android:layout_below="@id/tvTitleVideo"/>
+
+</RelativeLayout>

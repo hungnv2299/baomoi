@@ -1,4 +1,4 @@
-package com.hung.baomoi.ui.fragments
+package com.hung.baomoi.news.savednews
 
 import android.os.Bundle
 import android.view.View
@@ -10,9 +10,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.snackbar.Snackbar
 import com.hung.baomoi.R
-import com.hung.baomoi.adapters.NewsAdapter
-import com.hung.baomoi.ui.NewsActivity
-import com.hung.baomoi.ui.NewsViewModel
+import com.hung.baomoi.common.NewsAdapter
+import com.hung.baomoi.NewsActivity
+import com.hung.baomoi.common.NewsViewModel
 import kotlinx.android.synthetic.main.fragment_saved_news.*
 
 class SavedNewsFragment : Fragment(R.layout.fragment_saved_news) {

@@ -1,4 +1,4 @@
-package com.hung.baomoi.ui
+package com.hung.baomoi.common
 
 import android.app.Application
 import androidx.lifecycle.ViewModel

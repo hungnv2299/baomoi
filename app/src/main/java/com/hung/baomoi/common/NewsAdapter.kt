@@ -1,4 +1,4 @@
-package com.hung.baomoi.adapters
+package com.hung.baomoi.common
 
 import android.view.LayoutInflater
 import android.view.View
